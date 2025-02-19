@@ -6,7 +6,7 @@ class Platform
 public:
 	Platform(char const* title, int windowWidth, int windowHeight, int textureWidth, int textureHeight)
 	{
-		SDL_Init(SDL_INIT_VIDEO);
+		SDL_Init(SDL_INIT_VIDEO)
 
 		window = SDL_CreateWindow(title, 0, 0, windowWidth, windowHeight, SDL_WINDOW_SHOWN);
 
